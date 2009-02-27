@@ -1,0 +1,58 @@
+--- 
+- !ruby/object:Gem::Specification 
+  name: repo_page_san_test
+  version: !ruby/object:Gem::Version 
+    version: 0.0.2
+  platform: ruby
+  authors: 
+  - Eloy Duran
+  autorequire: 
+  bindir: bin
+  cert_chain: []
+
+  date: 2009-02-27 00:00:00 +01:00
+  default_executable: 
+  dependencies: []
+
+  description: A test repo to try out pages generation
+  email: eloy.de.enige@gmail.com
+  executables: []
+
+  extensions: []
+
+  extra_rdoc_files: []
+
+  files: 
+  - VERSION.yml
+  - lib/repo_page_san_test.rb
+  - test/repo_page_san_test_test.rb
+  - test/test_helper.rb
+  has_rdoc: true
+  homepage: http://github.com/alloy/repo_page_san_test
+  post_install_message: 
+  rdoc_options: 
+  - --inline-source
+  - --charset=UTF-8
+  require_paths: 
+  - lib
+  required_ruby_version: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        version: "0"
+    version: 
+  required_rubygems_version: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        version: "0"
+    version: 
+  requirements: []
+
+  rubyforge_project: 
+  rubygems_version: 1.3.1
+  signing_key: 
+  specification_version: 2
+  summary: A test repo to try out pages generation
+  test_files: []
+
