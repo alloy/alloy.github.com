@@ -59,7 +59,7 @@
 - !ruby/object:Gem::Specification 
   name: jewelry_portfolio
   version: !ruby/object:Gem::Version 
-    version: 0.1.0
+    version: 0.1.1
   platform: ruby
   authors: 
   - Eloy Duran
@@ -71,7 +71,7 @@
   default_executable: 
   dependencies: []
 
-  description: Imagine writing an erb template once and use rake release to release your gem with Jeweler as usual, but in addition re-generate and push the index.html for your GitHub pages. If that sounds good to you, you're in luck. Because that's exactly what this add-on for Jeweler[http://github.com/technicalpickles/jeweler/tree/master] does.
+  description: Imagine writing an erb template once and use rake release to release your gem with Jeweler as usual, but in addition re-generate and push the index.html for your GitHub pages. If that sounds good to you, you're in luck. Because that's exactly what this add-on for Jeweler does.
   email: eloy.de.enige@gmail.com
   executables: []
 
