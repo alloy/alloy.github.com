@@ -2,7 +2,7 @@
 - !ruby/object:Gem::Specification 
   name: repo_page_san_test
   version: !ruby/object:Gem::Version 
-    version: 0.0.2
+    version: 0.0.5
   platform: ruby
   authors: 
   - Eloy Duran
@@ -10,7 +10,7 @@
   bindir: bin
   cert_chain: []
 
-  date: 2009-02-27 00:00:00 +01:00
+  date: 2009-03-01 00:00:00 +01:00
   default_executable: 
   dependencies: []
 
