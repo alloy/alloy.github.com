@@ -1,15 +1,22 @@
 require 'jewelry_portfolio'
 
 namespace :portfolio do
-  PORTFOLIO = JewelryPortfolio.new('alloy', :work_directory => File.expand_path('..', __FILE__))
-  
   desc "Generate the HTML"
-  task :generate do
-    PORTFOLIO.render!
+  task :render do
+    portfolio.render!
   end
   
-  desc "Release the HTML"
+  desc "Generates the HTML and commits and pushes the new release"
   task :release do
-    PORTFOLIO.release!
+    portfolio.release!
+  end
+  
+  private
+  
+  def portfolio
+    if spec_file = Dir.glob('*.gemspec').first
+      spec = eval(File.read(spec_file))
+    end
+    JewelryPortfolio.new('alloy', spec)
   end
 end
