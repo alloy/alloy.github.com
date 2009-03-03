@@ -12,4 +12,4 @@
   gem: true
   name: repo_page_san_test
   summary: A test repo to try out pages generation
-  version: 0.0.6
+  version: 0.0.7
