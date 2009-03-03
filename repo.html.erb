@@ -1,6 +1,6 @@
 <div>
-  <h1><a href="<%= repo.url %>"><%= spec.name %> <%= spec.version %></a></h1>
-  <p><%= spec.description %></p>
+  <h1><a href="<%= repo.url %>"><%= repo.name %> <%= repo.version %></a></h1>
+  <p><%= repo.description %></p>
   <p>Install: <code>$ <%= repo.gem_install_command %></code></p>
   <p>Clone: <code>$ git clone <%= repo.clone_url %></code></p>
 </div>
