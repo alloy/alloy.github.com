@@ -5,7 +5,7 @@
   gem: true
   name: jewelry_portfolio
   summary: An add-on for Jeweler for lazy developers who would like to showcase their jewelry portfolio on their GitHub pages.
-  version: 0.2.2
+  version: 0.2.3
 - !ruby/object:JewelryPortfolio::Repo 
   account: alloy
   description: A test repo to try out pages generation
