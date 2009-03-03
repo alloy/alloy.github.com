@@ -1,0 +1,8 @@
+--- 
+- !ruby/object:JewelryPortfolio::Repo 
+  account: alloy
+  description: A test repo to try out pages generation
+  gem: true
+  name: repo_page_san_test
+  summary: A test repo to try out pages generation
+  version: 0.0.6
