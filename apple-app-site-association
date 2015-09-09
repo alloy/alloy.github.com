@@ -1,10 +1,11 @@
 {
   "applinks": {
     "apps": [],
-    "details": {
-      "ZH8TGFYKDK.net.artsy.artsy.dev": {
-        "paths":[ "*" ]
+    "details": [
+      {
+        "appID": "ZH8TGFYKDK.net.artsy.artsy.dev",
+        "paths": [ "*" ]
       }
-    }
+    ]
   }
 }
